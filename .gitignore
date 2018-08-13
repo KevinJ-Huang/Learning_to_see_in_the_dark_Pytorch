@@ -1,0 +1,10 @@
+*.pyc
+*swp
+*.log
+*.png
+*.txt
+*.pth
+*.py~
+.idea/
+.gitignore~
+examples/super_resolution/imgs
