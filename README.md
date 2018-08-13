@@ -27,21 +27,6 @@
 
 ## 使用:
 
-### step1: 定义config文件
+直接运行squid里的train.py就可以了
 
-定义训练测试流程的迭代数，数据集路径，model的插拔, dataloder的插拔
-
-### step2: 执行train.py 
-
-例如: python -m squid.train  experiments/sr_config.py  
-
-读取config,  驱动train, validate 这2种主流程, 同时支持snapshot断点, 用若干样本对模型效果进行监控 等功能
-
-
-### step3: inference.py 
-
-inference.py  模型评测
-
-##  mnist example:
-
-python -m squid.train experiments/mnist/config.py
+另说明：还要有一个models文件用来存放模型，dataset里还要有一个Sony文件存放数据，里面子文件(long/short)存放长短曝光数据
